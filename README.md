@@ -2,7 +2,7 @@
 
 ## Overview
 
-A memory efficient, pure Ruby implementation of the Aho-Corasick algorithm. The Aho-Corasick[http://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_string_matching_algorithm] algorithm provides a linear-time lookup solution for the exact set matching problem. (i.e. An efficient method of locating all occurrences of a set of keywords in a string of text) 
+A memory efficient, pure Ruby implementation of the Aho-Corasick algorithm. The [Aho-Corasick](http://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_string_matching_algorithm) algorithm provides a linear-time lookup solution for the exact set matching problem. (i.e. An efficient method of locating all occurrences of a set of keywords in a string of text) 
 
 Most importantly, this implementation is type independent, so you are not limited to only adding strings to the Trie.  You can pass any collection that can be iterated over and hashed.  (e.g. An array of integers)  See the samples/sample2.rb script for an example. You can also customize the output of the lookup by passing optional blocks to the add, build, and lookup functions.  See the samples/sample3.rb and samples/sample4.rb scripts for examples.
 
